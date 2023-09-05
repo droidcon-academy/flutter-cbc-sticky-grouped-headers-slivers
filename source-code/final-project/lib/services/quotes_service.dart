@@ -9,9 +9,7 @@ class QuotesService {
     final quotesListJson =
         QuotesListModel.quotesModelFromJson(quotesListJsonFile).quotes;
 
-    quotesListJson.sort(
-      (first, last) => first.author.compareTo(last.author),
-    );
+    quotesListJson.sort((a, b) => a.author.compareTo(b.author));
     return quotesListJson;
   }
 }
