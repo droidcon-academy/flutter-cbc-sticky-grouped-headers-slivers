@@ -1,16 +1,18 @@
-# quotes
+# Quotes - Grouped Sticky Headers in Flutter
 
-Quotes - Grouped Sticky Header.
+## What you'll build
 
-## Getting Started
+- Need to create grouped sticky headers?
+- There is a new widget in town, the `SliverMainAxisGroup` allows you to arrange multiple slivers together.
+- Create sticky headers that are pushed out of view as each sliver group scrolls by.
+- You’ll learn to use the `SliverMainAxisGroup` with `AppBar` or `SliverPersistentHeaderDelegate` to create sticky headers.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Overview
+- `CustomScrollView` using slivers for scrolling effects and performance
+- Group slivers with `SliverMainAxisGroup` widget containing sticky headers and grouped data
+- Create sticky headers for each group by using `SliverAppBar`
+- Alternatively create sticky headers for each group by using - `SliverPersistentHeaderDelegate`
+- Format actual grouped data with `ListTile` and leading `Icon`
+- Create a service to load `Json` quotes `List` and `Map` them to a `class` model
+- Create reusable widgets
+- No third-party packages needed
